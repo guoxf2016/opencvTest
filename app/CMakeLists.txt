@@ -29,5 +29,5 @@ find_library(
 
 target_link_libraries(
                        native-lib
-                        android -ljnigraphics libopencv_java3
+                        android -ljnigraphics
                        ${log-lib} )
